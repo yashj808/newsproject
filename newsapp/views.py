@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 def indec(request):
     source = request.GET.get('source', 'techcrunch')
-    newsapi = NewsApiClient(api_key='a0cb791668bb42a8974e04c116faafad')
+    newsapi = NewsApiClient(api_key='YOUR_API_KEY')
     
     # Calculate the time 4 hours ago and format it
     four_hours_ago = (timezone.now() - timedelta(hours=4)).strftime('%Y-%m-%dT%H:%M:%S')
