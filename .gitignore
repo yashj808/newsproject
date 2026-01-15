@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / dll files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.whl
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# News API Key (if stored in a separate file)
+.env
+*.env
